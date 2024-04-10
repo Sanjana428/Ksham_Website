@@ -1,0 +1,330 @@
+/* contact css */
+
+.ContactPage {
+	background: #0000;
+	overflow-x: hidden;
+	position: relative;
+}
+
+.conHero {
+	align-items: center;
+	background-size: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	min-height: 100vh;
+	position: relative;
+}
+
+.back {
+	/* background: #ffd24d; */
+    background: radial-gradient(
+        64.18% 64.18% at 71.16% 35.69%,
+        #def9fa 0.89%,
+        #bef3f5 17.23%,
+        #9dedf0 42.04%,
+        #7de7eb 55.12%,
+        #5ce1e6 71.54%,
+        #33bbcf 100%
+      );
+	height: 560px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100vw;
+	z-index: 0;
+}
+
+.contHead {
+	color: #222;
+	font-size: 56px;
+	font-weight: 700;
+	line-height: 76px;
+	text-align: center;
+	position: relative;
+}
+
+.ContactCard {
+	background: #222;
+	border-radius: 12px;
+	margin: 14px;
+	min-width: 80vw;
+	padding: 22px;
+	text-align: center;
+	position: relative;
+}
+
+.ContactSec {
+	background: #ffd24d;
+	display: flex;
+	flex-direction: column;
+	margin-top: 24px;
+	padding: 22px;
+	text-align: center;
+}
+
+.cont1,
+.cont1 a,
+.cont2,
+.cont2 a {
+	display: flex;
+	font-weight: 700;
+	line-height: 76px;
+}
+.cont1,
+.cont2 {
+	align-items: center;
+	font-size: 45px;
+	justify-content: center;
+}
+
+form {
+	display: block;
+	margin-top: 0em;
+	unicode-bidi: isolate;
+}
+
+.ContactCardHead {
+	color: #fff;
+	font-size: 45px;
+	font-weight: 700;
+	line-height: 76px;
+	margin: 12px;
+	padding: 0;
+	text-align: center;
+}
+
+.contactSubTitle {
+	color: #fff;
+	font-size: 25px;
+	font-weight: 400;
+	line-height: 40px;
+	text-align: center;
+}
+
+p {
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	unicode-bidi: isolate;
+}
+
+.cardForm {
+	display: flex;
+}
+
+.formLeft {
+	display: flex;
+	flex-direction: column;
+	margin: 8px;
+	padding: 22px;
+}
+
+.formLeft {
+	flex: 1.8 1;
+}
+
+.formLeft input,
+.formLeft textarea {
+	border-radius: 12px;
+	font-size: 21px;
+	font-weight: 400;
+	margin: 8px;
+	outline: none;
+}
+.formLeft input {
+	line-height: 46px;
+	padding: 2px 12px;
+}
+user agent stylesheet input[type="text" i] {
+	padding-block: 1px;
+	padding-inline: 2px;
+}
+
+/* input:not([type="file" i], [type="image" i], [type="checkbox" i], [type="radio" i]) {
+    } */
+
+input:not([type="file" i]):not([type="image" i]):not([type="checkbox" i]):not(
+		[type="radio" i]
+	) {
+	border: 1px solid black;
+	padding: 5px;
+	/* Add more styles as needed */
+}
+
+input {
+	text-rendering: auto;
+	color: fieldtext;
+	/* letter-spacing: normal; */
+	word-spacing: normal;
+	line-height: normal;
+	text-transform: none;
+	text-indent: 0px;
+	text-shadow: none;
+	display: inline-block;
+	text-align: start;
+	appearance: auto;
+	-webkit-rtl-ordering: logical;
+	cursor: text;
+	background-color: field;
+	/* margin: 0em; */
+	/* padding: 1px 0px; */
+	border-width: 2px;
+	border-style: inset;
+	border-color: light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+	border-image: initial;
+	/* padding-block: 1px; */
+	/* padding-inline: 2px; */
+}
+
+.formLeft textarea {
+	padding: 11px;
+}
+.formLeft input,
+.formLeft textarea {
+	border-radius: 12px;
+	font-size: 21px;
+	font-weight: 400;
+	margin: 8px;
+	outline: none;
+}
+user agent stylesheet textarea {
+	text-rendering: auto;
+	color: fieldtext;
+	letter-spacing: normal;
+	word-spacing: normal;
+	line-height: normal;
+	text-transform: none;
+	text-indent: 0px;
+	text-shadow: none;
+	display: inline-block;
+	text-align: start;
+	appearance: auto;
+	-webkit-rtl-ordering: logical;
+	resize: -internal-textarea-auto;
+	cursor: text;
+	overflow-wrap: break-word;
+	background-color: field;
+	column-count: initial !important;
+	/* margin: 0em; */
+	border-width: 1px;
+	border-style: solid;
+	border-color: light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+	border-image: initial;
+	/* padding: 2px; */
+	white-space: pre-wrap;
+}
+
+.formRight {
+	flex: 1 1;
+}
+
+.formSubmit {
+    background: radial-gradient(
+        64.18% 64.18% at 71.16% 35.69%,
+        #def9fa 0.89%,
+        #bef3f5 17.23%,
+        #9dedf0 42.04%,
+        #7de7eb 55.12%,
+        #5ce1e6 71.54%,
+        #33bbcf 100%
+      );
+	border-radius: 36px;
+	font-size: 32px;
+	font-weight: 700;
+	padding: 18px 36px;
+	text-align: center;
+}
+
+@media (max-width: 1324px) {
+	.cont1 a img,
+	.cont2 a img {
+		height: 48px;
+		padding: 12px;
+		width: 48px;
+	}
+}
+.cont1 a,
+.cont2 a {
+	color: #222;
+	/* font-size: 42px; */
+	text-align: center;
+	text-decoration: none;
+}
+.cont1 a img,
+.cont2 a img {
+	height: 52px;
+	padding: 12px;
+	width: 52px;
+}
+
+.contr {
+	justify-content: left;
+}
+
+.ContactSec {
+	background: radial-gradient(
+            64.18% 64.18% at 71.16% 35.69%,
+            #def9fa 0.89%,
+            #bef3f5 17.23%,
+            #9dedf0 42.04%,
+            #7de7eb 55.12%,
+            #5ce1e6 71.54%,
+            #33bbcf 100%
+        );
+	display: flex;
+	flex-direction: column;
+	margin-top: 24px;
+	padding: 22px;
+	text-align: center;
+}
+
+
+
+
+
+.MainSec4 {
+    /* min-height: 100vh; */
+    position: relative;
+    text-align: center;
+	margin-bottom: 30px;
+}
+
+
+.sec4circle {
+    aspect-ratio: 1 / 1;
+    /* background: #07ebdf38; */
+    background : #2b978e83; 
+    border-radius: 50%;
+    /* height: 110vh; */
+    left: -30vh;
+    min-height: 60vw;
+    position: absolute;
+    top: -15vh;
+    z-index: 0;
+}
+
+.MainSec4Heading {
+    color: rgba(255, 255, 255, 0.973);
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 76px;
+    margin-bottom: 40px;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+}
+
+
+
+.sec4vdo {
+    max-width: 1039px;
+    width: 52vw;
+    z-index: 1;
+    position: relative;
+    margin-left: 70px;
+	margin-right: 50px;
+	margin-top: auto;
+}
